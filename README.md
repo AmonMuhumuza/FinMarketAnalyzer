@@ -1,49 +1,39 @@
-# Smart Bank — Loan Risk Assessment & Management System
+# FinMarket Analyzer — Python Financial Market Analytics
+
+**Status: Work in Progress**
 
 ## Project Overview
 
-Smart Bank is a Python-based banking application developed to demonstrate how programming can support customer management, loan processing, loan payment calculations, and loan risk assessment.
+FinMarket Analyzer is a Python-based project focused on analyzing historical financial market data. It is being developed to explore quantitative analysis techniques and technical indicators using Python.
 
-The project combines Python programming concepts with practical banking and finance knowledge.
+The project combines programming, statistics, and financial market knowledge to examine price movements and market behavior.
 
-## Key Features
+## Features Implemented
 
-- **Customer Registration:** Register customers with personal, employment, and income information.
-- **Loan Applications:** Create personal, auto, and business loan applications.
-- **Loan Risk Assessment:** Calculate a risk score using a transparent educational scoring model.
-- **Loan Payment Calculator:** Estimate monthly loan payments using the loan amount, interest rate, and repayment term.
-- **Application Management:** View individual applications, list applications, and search for customers.
-- **Risk Reporting:** Generate a summary of loan applications by risk category.
-- **JSON File Storage:** Save and load customer and loan application records.
+- Importing historical market data from CSV files.
+- Calculating descriptive market statistics.
+- Analyzing price volatility and historical price movements.
+- Calculating Simple Moving Averages (SMA).
+- Calculating the Relative Strength Index (RSI).
+- Exploring MACD analysis and crossover detection in development.
 
 ## Technologies and Concepts
 
 - Python
-- Object-oriented programming
-- Classes, inheritance, and methods
-- Lists, tuples, and dictionaries
-- Functions and recursion
-- Input validation and exception handling
-- JSON file input/output
-- Financial calculations and basic risk scoring
+- Financial market data analysis
+- Statistics and quantitative analysis
+- CSV file processing
+- Technical indicators
+- Historical data analysis
 
-## How to Run
+## Project Status
 
-1. Install Python 3 if it is not already installed.
-2. Download or clone this repository.
-3. Open a terminal in the project folder.
-4. Run:
+This project is actively being developed. Features, testing, and validation may change as development continues. The repository represents a learning and development project rather than a production-ready trading system.
 
-   `python Smartbank.py`
+## Important Disclaimer
 
-On Windows, you can also try:
-
-   `py Smartbank.py`
-
-## Important Note
-
-Smart Bank is an educational project. Its risk scores and recommendations are illustrative and are not a validated credit-scoring model. They should not be used to make real lending decisions.
+This project is for educational and analytical purposes only. Its outputs are not guaranteed trading signals and should not be treated as financial advice.
 
 ## Author
 
-A personal project combining Python programming with banking and finance knowledge.
+A personal project combining Python development, financial analysis, and data analytics.
